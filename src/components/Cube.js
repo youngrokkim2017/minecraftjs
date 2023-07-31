@@ -22,7 +22,7 @@ export const Cube = ({ position, texture }) => {
 				if (e.altKey) {
 					removeCube(x, y, z)
 					return
-				}x
+				}
 				else if (clickedFace === 0) {
 					addCube(x + 1, y, z)
 					return
